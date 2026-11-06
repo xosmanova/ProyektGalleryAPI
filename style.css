@@ -3,11 +3,11 @@
    ========================================================== */
 
 :root {
-  --bg-surface: #0b0f19;
-  --bg-card: rgba(255, 255, 255, 0.04);
-  --bg-card-hover: rgba(255, 255, 255, 0.07);
+  --bg-surface: #0a0d14;
+  --bg-card: rgba(255, 255, 255, 0.035);
+  --bg-card-hover: rgba(255, 255, 255, 0.065);
   --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-focus: rgba(168, 85, 247, 0.5);
+  --border-focus: rgba(37, 99, 235, 0.5);
   --text-main: #f1f5f9;
   --text-muted: #94a3b8;
   --modal-backdrop: rgba(4, 6, 12, 0.85);
@@ -18,7 +18,7 @@
   --bg-card: rgba(255, 255, 255, 0.85);
   --bg-card-hover: #ffffff;
   --border-subtle: rgba(0, 0, 0, 0.08);
-  --border-focus: rgba(124, 58, 237, 0.5);
+  --border-focus: rgba(37, 99, 235, 0.5);
   --text-main: #0f172a;
   --text-muted: #64748b;
   --modal-backdrop: rgba(15, 23, 42, 0.7);
@@ -67,7 +67,7 @@ body {
 
 .nav-action-btn:hover {
   background: var(--bg-card-hover);
-  border-color: rgba(168, 85, 247, 0.3);
+  border-color: rgba(59, 130, 246, 0.3);
 }
 
 /* Album Filter Pills */
@@ -88,18 +88,18 @@ body {
 .album-pill:hover {
   color: var(--text-main);
   background: var(--bg-card-hover);
-  border-color: rgba(168, 85, 247, 0.3);
+  border-color: rgba(59, 130, 246, 0.3);
 }
 
 .album-pill.active {
-  background: #7c3aed;
+  background: #2563eb;
   color: #ffffff;
   border-color: transparent;
 }
 
 /* View Mode Toggles */
 .view-mode-btn.active {
-  background: #7c3aed;
+  background: #2563eb;
   color: white;
 }
 
@@ -118,7 +118,7 @@ body {
 .photo-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.4);
-  border-color: rgba(168, 85, 247, 0.4);
+  border-color: rgba(59, 130, 246, 0.4);
 }
 
 [data-theme="light"] .photo-card:hover {
@@ -176,8 +176,8 @@ body {
 }
 
 .card-action-btn:hover {
-  background: #7c3aed;
-  border-color: #a855f7;
+  background: #2563eb;
+  border-color: #3b82f6;
 }
 
 .card-action-btn.is-liked {
@@ -244,9 +244,9 @@ body {
 }
 
 .filter-preset-btn.active {
-  background: rgba(124, 58, 237, 0.2);
-  border-color: #a855f7;
-  color: #c4b5fd;
+  background: rgba(37, 99, 235, 0.2);
+  border-color: #3b82f6;
+  color: #93c5fd;
   font-weight: 600;
 }
 

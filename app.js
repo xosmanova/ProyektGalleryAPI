@@ -95,7 +95,7 @@ async function fetchPhotos() {
         <i class="fa-solid fa-triangle-exclamation text-3xl text-rose-500"></i>
         <h3 class="text-lg font-bold text-white">Məlumat yüklənmədi</h3>
         <p class="text-slate-400 text-sm">İnternet bağlantınızı yoxlayın və yenidən cəhd edin.</p>
-        <button onclick="location.reload()" class="px-5 py-2.5 rounded-xl bg-purple-600 text-white font-medium text-sm">Yenilə</button>
+        <button onclick="location.reload()" class="px-5 py-2.5 rounded-xl bg-blue-600 text-white font-medium text-sm">Yenilə</button>
       </div>
     `;
     showToast('Məlumatlar alına bilmədi', 'error');
@@ -255,7 +255,7 @@ function renderGallery() {
           </h4>
           <div class="flex items-center justify-between text-[11px] text-slate-400 pt-1 border-t border-white/5">
             <span>600 &times; 600</span>
-            <span class="text-purple-400">Baxış &rarr;</span>
+            <span class="text-blue-400">Baxış &rarr;</span>
           </div>
         </div>
       </article>
@@ -477,14 +477,14 @@ function showToast(message, type = 'info') {
     type === 'success' ? 'border-emerald-500/40 text-emerald-300' :
     type === 'love' ? 'border-rose-500/40 text-rose-300' :
     type === 'error' ? 'border-rose-500/50 text-rose-400' :
-    'border-purple-500/40 text-purple-200'
+    'border-blue-500/40 text-blue-200'
   }`;
 
   const iconClass = 
     type === 'success' ? 'fa-solid fa-circle-check text-emerald-400' :
     type === 'love' ? 'fa-solid fa-heart text-rose-500' :
     type === 'error' ? 'fa-solid fa-triangle-exclamation text-rose-400' :
-    'fa-solid fa-circle-info text-purple-400';
+    'fa-solid fa-circle-info text-blue-400';
 
   toast.innerHTML = `
     <i class="${iconClass} text-xs"></i>
