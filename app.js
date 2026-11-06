@@ -250,7 +250,7 @@ function renderGallery() {
         </div>
 
         <div class="photo-card-content p-3.5 flex flex-col justify-between flex-grow space-y-2">
-          <h4 class="photo-card-title text-sm font-medium text-slate-200 capitalize leading-snug line-clamp-2" title="${photo.title}">
+          <h4 class="photo-card-title text-sm font-medium text-main capitalize leading-snug line-clamp-2" title="${photo.title}">
             ${photo.title}
           </h4>
           <div class="flex items-center justify-between text-[11px] text-slate-400 pt-1 border-t border-white/5">
